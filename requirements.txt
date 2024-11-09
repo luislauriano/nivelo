@@ -6,3 +6,5 @@ pandas>=0.19
 streamlit
 altair
 plotly
+xgboost
+xgboost==1.7.3

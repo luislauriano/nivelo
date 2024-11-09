@@ -3,6 +3,7 @@ import pandas as pd
 import pickle
 import gzip
 import plotly.express as px
+from xgboost import XGBClassifier
 
 # Carregamento do modelo
 with gzip.open('model.pkl.gz', 'rb') as f:
@@ -236,7 +237,7 @@ with st.container():
     with col4:
         faltas = st.number_input('Quantidade de faltas', 0, 200, 25)
     with col5:
-        possui_diagnostico_de_transtorno = st.selectbox('possui_diagnostico_de_transtorno', [1, 0])
+        possui_diagnostico_de_transtorno = st.selectbox('Possui diagnostico de algum transtorno', ['Sim', 'Não'])
     
     turma = st.selectbox('Selecione a Turma', ['EM','FM'])
     
