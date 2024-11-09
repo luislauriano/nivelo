@@ -7,4 +7,3 @@ streamlit
 altair
 plotly
 xgboost
-xgboost==1.5.0
