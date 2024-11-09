@@ -218,7 +218,7 @@ st.markdown(
         Insira as informações solicitadas abaixo para a previsão do modelo:
     </div>
     <div class="custom-text-tres">
-        Aqui você consegue <strong>prever</strong> a chance de um aluno possuir dificuldade ou não com base o <strong>na prova de nivelamento aplicada</strong>,
+        Aqui você consegue <strong>prever</strong> a chance de um aluno possuir dificuldade ou não com base <strong>na prova de nivelamento aplicada</strong>,
         podendo assim <strong>entender melhor o perfil dos alunos<br></strong> Resultado igual a 1 para quando o aluno pode possuir alguma dificuldade.
     </div>
     """,
